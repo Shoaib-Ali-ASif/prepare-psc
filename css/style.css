@@ -50,3 +50,47 @@ h1{
     padding: 20px;
     background-color: #283593; 
 }
+
+.tool{
+    margin: 50px 0px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+.three-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 20px;
+    margin: 20px 20%;
+    
+}
+.items{
+    padding: 50px;
+    border: 1px solid;
+}
+
+.btn3{
+    width: 150px;
+    padding: 20px;
+    background-color: #283593; 
+}
+.foot{
+    background-color: #495bc0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+
+    color: white;
+
+}
+
+footer{
+    background-color: #3648ac;
+    text-align: center;
+    padding: 10px;
+    color: white;
+
+}
