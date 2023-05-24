@@ -26,6 +26,7 @@ a {
   gap: 50px;
   align-items: center;
 }
+
 .btn {
   width: 100px;
   background-color: #26a69a;
@@ -95,7 +96,7 @@ h1 {
   padding: 25px;
   border: 1px solid;
   gap: 25px;
-  animation: all 0.1s ease-in-out;
+  transition: all 0.35s ease-in-out;
 
 }
 .items:hover{
