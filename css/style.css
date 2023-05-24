@@ -16,7 +16,8 @@
     position: fixed;
     width: 100%;
     top: 0%;
-    background-color: #495bc0 !important;
+    background-color: #484cb5 !important;
+   border: 1px double #282a5c;
 }
 a{
     color: white;
@@ -36,7 +37,7 @@ a{
 .main{
     height: 800px;
     color: white;
-    background-color: #3f51b5;
+    background-color: #484cb5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,18 +78,23 @@ h1{
     background-color: #283593; 
 }
 .foot{
-    background-color: #495bc0;
+    background-color: #484cb5;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
 
     color: white;
+    height: 200px;
 
+}
+.img1{
+    height: 70px;
 }
 
 footer{
-    background-color: #3648ac;
+    background-color: #383a85;
+    border: 1px double #282a5c;
     text-align: center;
     padding: 10px;
     color: white;
